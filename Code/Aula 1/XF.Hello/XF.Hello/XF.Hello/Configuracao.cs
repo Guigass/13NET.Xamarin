@@ -4,12 +4,12 @@ using System.Text;
 
 namespace XF.Hello
 {
-    public static class Configuracao
+    public class Configuracao
     {
-        public static bool RastrearLocalizacao { get; set; } = true;
-        public static bool PermitirCookies { get; set; } = false;
-        public static bool DisponibilizarMural { get; set; } = 
-        public static bool EnviarEmail { get; set; }
-        public static bool ReceberSMS { get; set; }
+        public bool RastrearLocalizacao { get; set; } = true;
+        public bool PermitirCookies { get; set; } = false;
+        public bool DisponibilizarMural { get; set; } = true;
+        public bool EnviarEmail { get; set; } = false;
+        public bool ReceberSMS { get; set; } = false;
     }
 }

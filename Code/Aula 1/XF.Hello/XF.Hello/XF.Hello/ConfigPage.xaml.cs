@@ -12,8 +12,10 @@ namespace XF.Hello
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ConfigPage : ContentPage
 	{
-		public ConfigPage ()
+		public ConfigPage()
 		{
+            BindingContext = App.ConfigModel;
+
             InitializeComponent();
 		}
     }

@@ -7,8 +7,11 @@ namespace XF.Hello
 {
 	public partial class App : Application
 	{
+        public static Configuracao ConfigModel { get; set; }
 		public App ()
 		{
+            if (ConfigModel == null) ConfigModel = new Configuracao();
+
 			InitializeComponent();
 
 			MainPage = new NavigationPage(new MainPage());

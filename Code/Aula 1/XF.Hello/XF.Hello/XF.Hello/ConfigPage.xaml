@@ -7,7 +7,7 @@
         <TableView>
             <TableView.Root>
                 <TableSection Title="Privacidade">
-                    <SwitchCell Text="Rastrear localização" On="{Binding RastrearLocalizacao}" />
+                    <SwitchCell x:Uid="swRastrearLocalizacao" Text="Rastrear localização" On="{Binding RastrearLocalizacao}" />
                     <SwitchCell Text="Permitir cookies" On="{Binding PermitirCookies}" />
                 </TableSection>
                 <TableSection Title="Desempenho">
