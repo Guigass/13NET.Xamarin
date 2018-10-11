@@ -1,0 +1,16 @@
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\bin\Debug\netstandard2.0\XF.Hello.deps.json
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\bin\Debug\netstandard2.0\XF.Hello.dll
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\bin\Debug\netstandard2.0\XF.Hello.pdb
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\ConfigPage.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\CursoPage.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\DataBindingPage.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.csproj.CoreCompileInputs.cache
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.AssemblyInfoInputs.cache
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.AssemblyInfo.cs
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XamlC.stamp
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.dll
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.pdb
+D:\13NET\Xamarin\Code\Aula 1\XF.Hello\XF.Hello\XF.Hello\obj\Debug\netstandard2.0\XF.Hello.csprojAssemblyReference.cache
