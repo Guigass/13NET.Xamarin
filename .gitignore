@@ -1,2 +1,6 @@
 .vs
 .git
+packages
+bin
+obj
+/Atividades/Aula 1/XF.ControlesBasicos/.vs
