@@ -63,6 +63,13 @@ namespace XF.Recursos.Menu
                 TargetType = typeof(ProgressoView)
             });
 
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Exemplo",
+                Icone = "Home.png",
+                TargetType = typeof(Exemplo.Exemplo)
+            });
+
             lstMenu.ItemsSource = menuItems;
         }
     }
