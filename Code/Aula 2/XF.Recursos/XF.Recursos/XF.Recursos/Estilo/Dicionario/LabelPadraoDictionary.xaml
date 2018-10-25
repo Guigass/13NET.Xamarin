@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="XF.Recursos.Estilo.Dicionario.LabelPadraoDictionary">
+    <Style x:Key="LabelPadraoFilho" TargetType="Label">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontFamily" Value="Courier New" />
+        <Setter Property="FontSize" Value="10" />
+    </Style>
+</ResourceDictionary>

@@ -70,6 +70,13 @@ namespace XF.Recursos.Menu
                 TargetType = typeof(Exemplo.Exemplo)
             });
 
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Estilo Dinamico",
+                Icone = "Home.png",
+                TargetType = typeof(Estilo.DinamicoView)
+            });
+
             lstMenu.ItemsSource = menuItems;
         }
     }

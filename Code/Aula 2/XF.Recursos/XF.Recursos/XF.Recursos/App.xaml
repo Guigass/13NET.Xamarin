@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:merge="clr-namespace:XF.Recursos.Estilo.Dicionario"
              x:Class="XF.Recursos.App">
-	<Application.Resources>
     
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BotaoFiap" TargetType="Button">
+                <Setter Property="TextColor" Value="WhiteSmoke" />
+                <Setter Property="BorderRadius" Value="20" />
+                <Setter Property="BackgroundColor" Value="#E91C5D" />
+                <Setter Property="HeightRequest" Value="40" />
+            </Style>
+            <!--Merge-->
+            <ResourceDictionary.MergedDictionaries>
+                <merge:LabelPadraoDictionary />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
 	</Application.Resources>
+    
 </Application>
