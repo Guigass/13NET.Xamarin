@@ -10,17 +10,11 @@ using XF.MVVMBasic.ViewModel;
 
 namespace XF.MVVMBasic.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AlunoView : ContentPage
-	{
-        AlunoViewModel vmAluno;
-
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AlunoView : ContentPage
+    {
         public AlunoView()
         {
-            var aluno = AlunoViewModel.GetAluno();
-            vmAluno = new AlunoViewModel(aluno);
-            BindingContext = vmAluno;
-
             InitializeComponent();
         }
     }

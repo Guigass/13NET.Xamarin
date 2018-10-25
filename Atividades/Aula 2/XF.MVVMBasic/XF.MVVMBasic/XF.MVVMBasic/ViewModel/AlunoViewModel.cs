@@ -9,6 +9,7 @@ namespace XF.MVVMBasic.ViewModel
     {
         #region Propriedades
 
+        public List<Aluno> Alunos { get; set; }
         public string RM { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }

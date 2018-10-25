@@ -22264,12 +22264,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\XF.ControlesBasicos.UWP.csproj",
+      "projectUniqueName": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\XF.ControlesBasicos.UWP.csproj",
       "projectName": "XF.ControlesBasicos.UWP",
-      "projectPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\XF.ControlesBasicos.UWP.csproj",
-      "projectJsonPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\project.json",
+      "projectPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\XF.ControlesBasicos.UWP.csproj",
+      "projectJsonPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\project.json",
       "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
-      "outputPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\obj\\",
+      "outputPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\logonrmlocal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22282,8 +22282,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.csproj": {
-              "projectPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.csproj"
+            "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.csproj": {
+              "projectPath": "C:\\13NET.Xamarin\\Atividades\\Aula 1\\XF.ControlesBasicos-Completo\\XF.ControlesBasicos\\XF.ControlesBasicos\\XF.ControlesBasicos.csproj"
             }
           }
         }
