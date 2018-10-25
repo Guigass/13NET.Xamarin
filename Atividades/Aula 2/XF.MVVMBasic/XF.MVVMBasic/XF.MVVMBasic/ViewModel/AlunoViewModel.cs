@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 using XF.MVVMBasic.Model;
+using XF.MVVMBasic.View;
 
 namespace XF.MVVMBasic.ViewModel
 {
-    public class AlunoViewModel
+    public class AlunoViewModel : INotifyPropertyChanged
     {
         #region Propriedades
 
@@ -16,12 +20,21 @@ namespace XF.MVVMBasic.ViewModel
 
         #endregion
 
+        public ICommand OnNovoCMD { get; private set; }
+
         public AlunoViewModel(Aluno aluno)
         {
-            this.RM = aluno.RM;
-            this.Nome = aluno.Nome;
-            this.Email = aluno.Email;
+            OnNovoCMD = new Command(OnNovo);
         }
+
+        private async void OnNovo()
+        {
+            // App.AlunoVM.AlunoModel.Nome = App.AlunoVM.AlunoModel.Email = App.AlunoVM.AlunoModel.RM = string.Empty;
+            //App.AlunoVM.AlunoModel = new Aluno();
+            await App.Current.MainPage.Navigation.PushAsync(new NovoAlunoView() { BindingContext = App.AlunoVM });
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public static Aluno GetAluno()
         {
