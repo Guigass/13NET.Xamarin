@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
 using System.Windows.Input;
@@ -13,7 +14,7 @@ namespace XF.MVVMBasic.ViewModel
     {
         #region Propriedades
 
-        public List<Aluno> Alunos { get; set; }
+        public ObservableCollection<Aluno> Alunos { get; set; } = new ObservableCollection<Aluno>();
         public string RM { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -35,17 +36,5 @@ namespace XF.MVVMBasic.ViewModel
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
-        public static Aluno GetAluno()
-        {
-            var aluno = new Aluno()
-            {
-                Id = Guid.NewGuid(),
-                RM = "542621",
-                Nome = "Anderson Silva",
-                Email = "anderson@ufc.com"
-            };
-            return aluno;
-        }
     }
 }
