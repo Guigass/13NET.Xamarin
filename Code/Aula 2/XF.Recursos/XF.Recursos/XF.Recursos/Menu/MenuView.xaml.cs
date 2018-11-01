@@ -21,6 +21,7 @@ namespace XF.Recursos.Menu
             InitializeComponent();
 
             ObservableCollection<OpcoesMenu> menuItems = new ObservableCollection<OpcoesMenu>();
+
             menuItems.Add(new OpcoesMenu
             {
                 Descricao = "Home",
@@ -76,6 +77,35 @@ namespace XF.Recursos.Menu
                 Icone = "Home.png",
                 TargetType = typeof(Estilo.DinamicoView)
             });
+
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Triggers",
+                Icone = "Home.png",
+                TargetType = typeof(Estilo.TriggersView)
+            });
+
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Lista Produtos",
+                Icone = "Home.png",
+                TargetType = typeof(Lista.ProdutoView)
+            });
+
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Theme",
+                Icone = "Home.png",
+                TargetType = typeof(Theme.ThemeView)
+            });
+
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Message Center",
+                Icone = "Home.png",
+                TargetType = typeof(PassParameter.MCHomeView)
+            });
+
 
             lstMenu.ItemsSource = menuItems;
         }

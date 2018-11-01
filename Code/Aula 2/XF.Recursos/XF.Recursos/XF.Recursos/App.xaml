@@ -12,6 +12,44 @@
                 <Setter Property="BackgroundColor" Value="#E91C5D" />
                 <Setter Property="HeightRequest" Value="40" />
             </Style>
+
+            <!-- Template 2015 -->
+            <ControlTemplate x:Key="FuchsiaTemplate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.1*" />
+                        <RowDefinition Height="0.8*" />
+                        <RowDefinition Height="0.1*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.05*" />
+                        <ColumnDefinition Width="0.95*" />
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.ColumnSpan="2" BackgroundColor="Fuchsia" />
+                    <Label Grid.Column="1" Text="{TemplateBinding Parent.BindingContext.HeaderFIAP}" TextColor="White" VerticalOptions="Center" />
+                    <ContentPresenter Grid.Row="1" Grid.ColumnSpan="2" />
+                    <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="Fuchsia" />
+                    <Label Grid.Row="2" Grid.Column="1" Text="{TemplateBinding Parent.BindingContext.FooterFIAP}" TextColor="White" VerticalOptions="Center" />
+                </Grid>
+            </ControlTemplate>
+
+            <!-- Template 2018 -->
+            <ControlTemplate x:Key="MaroonTemplate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.1*" />
+                        <RowDefinition Height="0.9*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.05*" />
+                        <ColumnDefinition Width="0.95*" />
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.ColumnSpan="2" Color="Maroon" />
+                    <Label Grid.Column="1" Text="{TemplateBinding Parent.BindingContext.HeaderFIAP}" TextColor="White" VerticalOptions="Center" />
+                    <ContentPresenter Grid.Row="1" Grid.ColumnSpan="2"  />
+                </Grid>
+            </ControlTemplate>
+
             <!--Merge-->
             <ResourceDictionary.MergedDictionaries>
                 <merge:LabelPadraoDictionary />

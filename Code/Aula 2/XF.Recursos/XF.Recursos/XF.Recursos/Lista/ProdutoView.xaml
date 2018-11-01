@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Recursos.Lista.ProdutoView">
+
+    <ContentPage.Content>
+        <StackLayout Padding="5">
+            <StackLayout Padding="5" Spacing="2">
+                <SearchBar Placeholder="Pesquisar por produto" Text="{Binding PesquisaPorDescricao}" />
+            </StackLayout>
+            <ListView ItemsSource="{Binding Produtos}" 
+                      ItemTapped="lstProduto_ItemTapped" 
+                      RowHeight="110" IsPullToRefreshEnabled="True"
+                      Refreshing="OnAtualizar_Refreshing">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ContentView Padding="5">
+                                <Frame OutlineColor="Accent" Padding="5">
+                                    <StackLayout Padding="2" Orientation="Horizontal">
+                                        <StackLayout>
+                                            <BoxView HeightRequest="80" WidthRequest="80" BackgroundColor="AliceBlue" />
+                                        </StackLayout>
+                                        <StackLayout>
+                                            <Label Text="{Binding Descricao, StringFormat='Descrição: {0}'}" />
+                                            <Label Text="{Binding Categoria, StringFormat='Categoria: {0}'}" />
+                                            <Label Text="{Binding Quantidade, StringFormat='Quantidade: {0}'}" />
+                                            <Label Text="{Binding Preco, StringFormat='Descrição: {0:C}'}" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
