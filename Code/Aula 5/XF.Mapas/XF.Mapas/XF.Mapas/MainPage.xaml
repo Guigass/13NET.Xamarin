@@ -6,6 +6,10 @@
 
     <StackLayout>
         <Button Text="Mapa" Clicked="OnMapa_Clicked" />
+        <Button Text="Controle" Clicked="Button_Clicked" />
+        <Button Text="Localizacao" Clicked="Button_Clicked_1" />
+        <Button Text="Marker" Clicked="Button_Clicked_2" />
+
     </StackLayout>
 
 </ContentPage>
