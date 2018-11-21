@@ -106,6 +106,12 @@ namespace XF.Recursos.Menu
                 TargetType = typeof(PassParameter.MCHomeView)
             });
 
+            menuItems.Add(new OpcoesMenu
+            {
+                Descricao = "Custom Renderer",
+                Icone = "Home.png",
+                TargetType = typeof(CustomControl.CustomView)
+            });
 
             lstMenu.ItemsSource = menuItems;
         }
