@@ -23,6 +23,8 @@ namespace XF.Mapas.Droid
 
             Xamarin.FormsMaps.Init(this, bundle);
 
+            Xamarin.Essentials.Platform.Init(this, bundle);
+
             LoadApplication(new App());
         }
     }

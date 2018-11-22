@@ -19,19 +19,34 @@ namespace XF.Mapas
             Navigation.PushAsync(new View.MapaView());
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void OnControle_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new View.ControleView());
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private void OnLocalizacao_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new View.LocalizacaoView());
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private void OnMarker_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new View.MarcarView());
+        }
+
+        private void OnAreaDemarcada_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.MapaDemarcadoView());
+        }
+
+        private void OnMarkerCustom_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.MapaPinCustom());
+        }
+
+        private void OnGps_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.GPSView());
         }
     }
 }

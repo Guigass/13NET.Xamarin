@@ -6,10 +6,12 @@
 
     <StackLayout>
         <Button Text="Mapa" Clicked="OnMapa_Clicked" />
-        <Button Text="Controle" Clicked="Button_Clicked" />
-        <Button Text="Localizacao" Clicked="Button_Clicked_1" />
-        <Button Text="Marker" Clicked="Button_Clicked_2" />
-
+        <Button Text="Controle" Clicked="OnControle_Clicked" />
+        <Button Text="Localizacao" Clicked="OnLocalizacao_Clicked" />
+        <Button Text="Marker" Clicked="OnMarker_Clicked" />
+        <Button Text="Area Demarcada" Clicked="OnAreaDemarcada_Clicked" />
+        <Button Text="Marker Customizados" Clicked="OnMarkerCustom_Clicked" />
+        <Button Text="GPS Sensor" Clicked="OnGps_Clicked" />
     </StackLayout>
 
 </ContentPage>

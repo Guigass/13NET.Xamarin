@@ -6,12 +6,13 @@
 
     <ContentPage.Content>
         <StackLayout Padding="5">
+            
             <StackLayout>
-                <SearchBar x:Name="txtPesquisa" Placeholder="Endereço" 
-                           SearchButtonPressed="txtPesquisa_SearchButtonPressed" />
+                <SearchBar x:Name="txtPesquisa" Placeholder="Endereço" SearchButtonPressed="txtPesquisa_SearchButtonPressed" />
             </StackLayout>
-            <mapa:Map x:Name="meuMapa" MapType="Street" 
-                      VerticalOptions="FillAndExpand" />
+            
+            <mapa:Map x:Name="meuMapa" MapType="Street" VerticalOptions="FillAndExpand" />
+            
         </StackLayout>
     </ContentPage.Content>
     

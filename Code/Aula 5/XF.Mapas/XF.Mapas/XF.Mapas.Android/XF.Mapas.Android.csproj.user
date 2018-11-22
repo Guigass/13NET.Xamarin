@@ -3,5 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>xamarin_8_apis_google</SelectedDevice>
     <DefaultDevice>xamarin_8_apis_google</DefaultDevice>
+    <ProjectView>ProjectFiles</ProjectView>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>
