@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.EssentialAPI.View.ConectividadeView"
+             Title="Conectividade">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Status - Conectividade." FontAttributes="Bold" Margin="12" />
+
+            <ScrollView>
+                <StackLayout Padding="12,6,12,12" Spacing="6">
+                    <Label Text="Connectivity State:" FontAttributes="Bold" />
+                    <Label Text="" x:Name="lblPerfil" />
+                    <Label Text="" x:Name="lblRede" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.EssentialAPI.View.CompartilharView"
+             Title="Compartilhamento">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Compartilhar" FontAttributes="Bold" Margin="12" />
+
+            <ScrollView>
+                <StackLayout Padding="12,0,12,12" Spacing="6">
+
+                    <Entry Placeholder="Informe o Titulo" x:Name="txtTitulo" />
+                    <Entry Placeholder="Informe o Assunto" x:Name="txtAssunto" />
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Texto" HorizontalOptions="StartAndExpand" VerticalOptions="End" />
+                        <Switch HorizontalOptions="End" VerticalOptions="End"
+                                x:Name="swtTexto"/>
+                    </StackLayout>
+
+                    <Entry Placeholder="Informe o texto" x:Name="txtTexto" />
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="URI" HorizontalOptions="StartAndExpand" VerticalOptions="End" />
+                        <Switch HorizontalOptions="End" VerticalOptions="End"
+                                x:Name="swtUri"/>
+                    </StackLayout>
+
+                    <Entry Placeholder="Informe o site" x:Name="txtUri" />
+
+                    <Button Text="Transferir Texto" Clicked="OnTransferir_Clicked" />
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

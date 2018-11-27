@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.EssentialAPI"
+             x:Class="XF.EssentialAPI.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Button Text="Phone Call" Clicked="OnPhoneClass_Clicked"></Button>
+        <Button Text="Conectividade" Clicked="OnConectividade_Clicked"></Button>
+        <Button Text="Compartilhar" Clicked="OnCompartilhar_Clicked"></Button>
+        <Button Text="Bateria" Clicked="OnBateria_Clicked"></Button>
+        <Button Text="Compasso" Clicked="OnCompasso_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

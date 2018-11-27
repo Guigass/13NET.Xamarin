@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.EssentialAPI.View.BateriaView"
+             Title="Nivel Bateria">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nível da bateria" FontAttributes="Bold" Margin="12" />
+
+            <ScrollView>
+                <StackLayout Padding="12" Spacing="6">
+                    <Label Text="Situação da Bateria:" FontAttributes="Bold" Margin="0,6,0,0" />
+                    <Label Text="{Binding Level, StringFormat='Nível da carga: {0:P1}'}" />
+                    <Label Text="{Binding State, StringFormat='Situação: {0}'}" />
+                    <Label Text="{Binding PowerSource, StringFormat='Carregando: {0}'}" />
+                    <Label Text="{Binding EnergySaverStatus, StringFormat='Salvar Energia: {0}'}" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

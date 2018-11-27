@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.EssentialAPI.View.PhoneView"
+             Title="Phone">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="API - Telefone" FontAttributes="Bold" Margin="12" />
+
+            <ScrollView>
+                <StackLayout Padding="12" Spacing="6">
+                    <Label Text="Contato:" />
+                    <Entry x:Name="txtTelefone" Keyboard="Telephone" />
+                    <Button Text="Ligar" Clicked="OnLigar_Clicked" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
